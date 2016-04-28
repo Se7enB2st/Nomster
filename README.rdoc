@@ -1,6 +1,7 @@
 == README
 
 The Firehose Project
+
 A Yelp clone integrated with Google Maps and features like user comments, star ratings, image uploading, user authentication, automated email notification messages and admin dashboards.
 
 

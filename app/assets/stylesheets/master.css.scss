@@ -2,6 +2,11 @@ body {
   background: url('/assets/arches.png');
   font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
+.navbar-inverse .navbar-brand {
+  color: rgba(#86f1b7, 0.77);
+  font-family: 'kaushan_scriptregular',sans-serif;
+  font-size: 27px;
+}
 .navbar.navbar-inverse {
   background:url('/assets/black_scales.png');
   border-radius: 0;

@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Figaro gem
+gem "figaro", ">= 1.0.0"
+
 #Gemocoder gem
 gem "geocoder"
 

@@ -1,6 +1,7 @@
 class Comment < ActiveRecord::Base
   belongs_to :user
   belongs_to :place
+  validates :message,:length => { minimum: 3 }, :presence => true
 
   RATINGS = {
     'one star'    => '1_star',

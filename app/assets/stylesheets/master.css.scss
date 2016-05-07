@@ -1,6 +1,9 @@
-body {
+html, body {
   background: url('/assets/arches.png');
   font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .navbar-inverse .navbar-brand {
   color: rgba(#86f1b7, 0.77);
@@ -40,11 +43,24 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 #map {
   height: 300px;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }

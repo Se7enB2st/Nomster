@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Pry gem
+gem 'pry', group: :development
+
 #Figaro gem
 gem "figaro", ">= 1.0.0"
 

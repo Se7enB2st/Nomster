@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 #map {
@@ -63,4 +63,9 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+.image_style {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }

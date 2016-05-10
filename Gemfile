@@ -9,6 +9,9 @@ gem 'pry', group: :development
 #Figaro gem
 gem "figaro", ">= 1.0.0"
 
+#Fog gem
+gem "fog", "~> 1.3.1"
+
 #Gemocoder gem
 gem "geocoder"
 

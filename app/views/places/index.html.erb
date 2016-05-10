@@ -18,6 +18,11 @@
     </blockquote>
   </div>
   <% end %>
+  <% if place.photos.present? %>
+  <div class="col-xs-12 col-sm-12">
+      <%= image_tag(place.photos.last.picture, :class => "image_style") %>
+  </div>
+<% end %>
 </div>
 <% end %>
 <%= will_paginate @places %>

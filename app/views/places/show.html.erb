@@ -89,6 +89,7 @@
     <button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myModal">
       Add a comment
     </button>
+    <div class="clear"></div>
     <button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myPicture">
       Add a photo
     </button>
@@ -103,6 +104,13 @@
       <%= comment.message %>
       <small><%= comment.user.email %></small>
     </blockquote>
+  </div>
+  <br />
+  <div class ="col-xs-12 col-sm-6">
+    <% @place.photos.each do |photo| %>
+    <%= image_tag photo.picture %>
+    <%= photo.caption %>
+    <% end %>
   </div>
   <% end %>
 </div>

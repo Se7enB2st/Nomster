@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Carrierwave gem
+gem 'carrierwave'
+
 #Pry gem
 gem 'pry', group: :development
 

@@ -9,8 +9,8 @@ Nomster::Application.configure do
     :domain         => 'heroku.com',
     :enable_starttls_auto => true
     }
-    
-  config.action_mailer.default_url_options = { host: 'nomster.herokuapp.com' }
+
+  config.action_mailer.default_url_options = { host: 'nomster-ethan.herokuapp.com' }
 
 
   # Settings specified here will take precedence over those in config/application.rb.

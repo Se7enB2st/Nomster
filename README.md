@@ -14,7 +14,7 @@ Nomster can be found in production [here](http://nomster-ethan.herokuapp.com/).
 
 **Contributors**
 
-+ Robert Sapunarich
++ Ethan He
 
 **License**
 

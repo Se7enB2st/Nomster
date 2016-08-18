@@ -4,6 +4,11 @@ Nomster is a japanese restaurant review application integrated with Google Maps 
 
 Nomster can be found in production [here](http://nomster-ethan.herokuapp.com/).
 
+**Start Application**
+
+1. Change directory to Nomster `$ cd Nomster`
+2. Start server `rails server`
+
 **Contributing**
 
 1. Fork the Nomster repository.
